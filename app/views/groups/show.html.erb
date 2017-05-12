@@ -25,6 +25,10 @@
       <% end %>
     </tbody>
   </table>
+
+  <div class="text-center">
+    <%= will_paginate @posts %>
+  </div>
   <br>
-  <%= link_to '返回', groups_path %>
+  <%= link_to('返回', groups_path, class: "btn btn-primary") %>
 </div>
