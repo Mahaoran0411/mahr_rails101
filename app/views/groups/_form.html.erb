@@ -5,6 +5,5 @@
   <%= f.input :description, input_html: { class: "form-control"} %>
 </div>
 <%= f.submit "Submit", class: "btn btn-primary", data: { disable_with: "Submiting..." } %>
-<br>
-<%= link_to '返回', groups_path %>
+<%= link_to '返回', groups_path, class: "btn btn-primary" %>
 <% end %>
